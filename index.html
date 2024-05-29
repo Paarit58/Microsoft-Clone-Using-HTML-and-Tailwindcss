@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body class="text-xs">
+    <header>
+      <div
+        class="nav-container flex justify-between items-center py-4 px-2 h-10 text-[10px]"
+      >
+        <div class="menu flex space-x-7 md:hidden">
+          <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+          <i class="fa fa-search fa-fw" aria-hidden="true"></i>
+        </div>
+
+        <div class="first-nav-section flex items-center space-x-5 md:order-1">
+          <div class="logo shrink-0">
+            <img src="assets/mslogo.png" class="h-4" />
+          </div>
+          <div class="options hidden md:order-2 md:flex md:space-x-3">
+            <a class="hover:underline" href="#">Microsoft 365 </a>
+            <a class="hover:underline" href="#">Teams </a>
+            <a class="hover:underline" href="#">Copilot </a>
+            <a class="hover:underline" href="#">Windows </a>
+            <a class="hover:underline" href="#">Surface </a>
+            <a class="hover:underline" href="#">Xbox </a>
+          </div>
+        </div>
+
+        <div class="cart flex items-center space-x-7 md:order-3">
+          <a href="#"> <span class="hidden md:inline">All Microsoft</span></a>
+          <a href=""><i class="fa fa-search fa-fw hidden md:inline" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-shopping-cart fa-fw" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-user-circle fa-fw" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="hero-section lg:relative">
+        <div class="hero-image lg:hidden">
+          <img class="md:size-full" src="assets/hero-image2.avif" />
+        </div>
+
+        <div class="hero-image hidden lg:block">
+          <img class="size-full" src="assets/hero-image.avif" />
+        </div>
+
+        <div
+          class="hero-content flex flex-col space-y-3 px-5 py-4 lg:absolute lg:top-16 lg:left-24 lg:w-96"
+        >
+          <span class="bg-[#FFB900] size-fit px-2 py-1 font-medium">New</span>
+          <p class="font-semibold text-xl">Meet Surface Laptop</p>
+          <p>
+            Unlock next-gen AI features like Recall and Cocreator with this
+            exceptionally powerful laptop.
+          </p>
+          <span class="bg-[#0067B8] size-fit px-2 py-2 text-white font-medium"
+            >Pre-order now</span
+          >
+          <hr class="h-1 bg-gray-100 lg:hidden" />
+        </div>
+      </div>
+
+      <div
+        class="shopping-section flex flex-wrap px-10  justify-center items-baseline mt-5"
+      >
+        <div
+        class="icon1 mx-5 flex flex-col items-center font-semibold text-[#0067BB] underline space-y-3 mt-6"
+        >
+          <img class="size-10" src="assets/icon-1.svg" />
+          <a href="#">Shop Surface devices</a>
+        </div>
+
+        <div
+        class="icon2 mx-5 flex flex-col items-center font-semibold text-[#0067BB] underline space-y-3 mt-6"
+        >
+          <img class="size-10" src="assets/icon-2.svg" />
+          <a href="#">Shop Xbox games and consoles</a>
+        </div>
+
+        <div
+        class="icon3 mx-5 flex flex-col items-center font-semibold text-[#0067BB] underline space-y-3 mt-6"
+        >
+          <img class="size-10" src="assets/icon-3.svg" />
+          <a href="#">Find your next PC</a>
+        </div>
+
+        <div
+        class="icon4 mx-5 flex flex-col items-center font-semibold text-[#0067BB] underline space-y-3 mt-6"
+        >
+          <img class="size-10" src="assets/icon-4.svg" />
+          <a href="#">Shop for your business</a>
+        </div>
+
+        <div
+        class="icon5   mx-5 flex flex-col items-center font-semibold text-[#0067BB] underline space-y-3 mt-6"
+        >
+          <img class="size-10" src="assets/icon-5.svg" />
+          <a href="#"> Choose your Microsoft 365</a>
+        </div>
+      </div>
+
+      <div
+        class="software-section flex justify-center flex-wrap space-x-5 mt-10 px-3 lg:px-10"
+      >
+        <div
+          class="card1 border rounded-md shadow-sm flex flex-col justify-between my-8 w-[90vw] md:w-[45vw] lg:w-[20vw]"
+        >
+          <img src="assets/content-image-1.avif" />
+          <div class="py-3 px-2 flex flex-col h-full justify-between space-y-3">
+            <div>
+              <p class="font-semibold text-xl">
+                Maximize the everyday with Microsoft 365
+              </p>
+              <br />
+              <p>
+                Get online protection, secure cloud storage, and innovative apps
+                designed to fit your needs—all in one plan.
+              </p>
+            </div>
+            <div class="flex flex-wrap justify-between gap-3">
+              <span
+                class="size-fit px-2 py-1 bg-[#0067B8] text-white font-medium"
+                ><a href="#">For 1 person</a></span
+              >
+              <a class="text-[#0067B8] font-medium" href="#"
+                >For up to 6 people ></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="card2 border rounded-md shadow-sm flex flex-col my-8 w-[90vw] md:w-[45vw] lg:w-[20vw]"
+        >
+          <img src="assets/content-image-2.avif" />
+          <div class="py-3 px-2 flex flex-col h-full justify-between space-y-3">
+            <div>
+              <p class="font-semibold text-xl">
+                Unlock your potential with Microsoft Copilot
+              </p>
+              <br />
+              <p>
+                Get things done faster and unleash your creativity with the
+                power of AI anywhere you go.
+              </p>
+            </div>
+            <div>
+              <span
+                class="size-fit px-2 py-1 bg-[#0067B8] text-white font-medium"
+                ><a href="#">Download the Copilot app</a></span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="card3 border rounded-md shadow-sm flex flex-col my-8 w-[90vw] md:w-[45vw] lg:w-[20vw]"
+        >
+          <img src="assets/content-image-3.webp" />
+          <div class="py-3 px-2 flex flex-col h-full justify-between space-y-3">
+            <div>
+              <p class="font-semibold text-xl">Xbox Series X</p>
+              <br />
+              <p>The fastest, most powerful Xbox ever.</p>
+            </div>
+            <div class="flex flex-wrap gap-3 justify-between">
+              <span
+                class="size-fit px-2 py-1 bg-[#0067B8] text-white font-medium"
+                ><a href="#">Shop Xbox Series X</a></span
+              >
+              <a class="text-[#0067B8] font-medium" href="#"
+                >Shop all Xbox consoles ></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="card4 border rounded-md shadow-sm flex flex-col my-8 w-[90vw] md:w-[45vw] lg:w-[20vw]"
+        >
+          <img src="assets/content-image-4.avif" />
+          <div class="py-3 px-2 flex flex-col h-full justify-between space-y-3">
+            <div>
+              <p class="font-semibold text-xl">
+                Xbox Games Showcase + Call of Duty: Black Ops 6 Direct
+              </p>
+              <br />
+              <p>
+                Save the date for Xbox Games Showcase, June 9 at 10 AM PT.
+                Explore new games from Xbox, plus stay tuned for Call of Duty:
+                Black Ops 6 Direct immediately following the event.
+              </p>
+            </div>
+            <div>
+              <span
+                class="size-fit px-2 py-1 bg-[#0067B8] text-white font-medium"
+                ><a href="#">Learn more about the event</a></span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="end-of-main relative py-10 pl-3 lg:pl-24 pr-2">
+        <div class="flex space-x-5">
+          <span>Follow Microsoft</span>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <span class="py-2 px-2 absolute bottom-3 right-3 bg-gray-300">
+          <a href="#" class="flex gap-1 items-center">
+            <i class="fa-solid fa-arrow-up"></i>
+            <p>Back to top</p></a
+          >
+        </span>
+      </div>
+    </main>
+
+    <footer>
+      <div class="last-section bg-[#f2f2f2] text-[#616161]">
+        <div class="flex flex-wrap justify-around gap-8 pt-6">
+          <div class="list1 custom-wrap">
+            <ul class="text-[10px] flex flex-col gap-4">
+              <li><h3 class="font-semibold text-base">What's new</h3></li>
+              <li><a href="#">Surface Pro</a></li>
+              <li><a href="#">Surface Laptop</a></li>
+              <li><a href="#">Surface Laptop Studio 2</a></li>
+              <li><a href="#">Surface Laptop Go 3</a></li>
+              <li><a href="#">Microsoft Copilot</a></li>
+              <li><a href="#">Copilot in Windows</a></li>
+              <li><a href="#">Explore Microsoft products</a></li>
+              <li><a href="#">Windows 11 apps</a></li>
+            </ul>
+          </div>
+
+          <div class="list2 custom-wrap">
+            <ul class="text-[10px] flex flex-col gap-4">
+              <li><h3 class="font-semibold text-base">Microsoft Store</h3></li>
+              <li><a href="#">Account profile</a></li>
+              <li><a href="#">Download Center</a></li>
+              <li><a href="#">Microsoft Store support</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Order tracking</a></li>
+              <li><a href="#">Certified Refurbished</a></li>
+              <li><a href="#">Microsoft Store Promise</a></li>
+              <li><a href="#">Flexible Payments</a></li>
+            </ul>
+          </div>
+
+          <div class="list3 custom-wrap">
+            <ul class="text-[10px] flex flex-col gap-4">
+              <li><h3 class="font-semibold text-base">Education</h3></li>
+              <li><a href="#">Microsoft in education</a></li>
+              <li><a href="#">Devices for education</a></li>
+              <li><a href="#">Microsoft Teams for Education</a></li>
+              <li><a href="#">Microsoft 365 Education</a></li>
+              <li><a href="#">How to buy for your school</a></li>
+              <li><a href="#">Educator training and development</a></li>
+              <li><a href="#">Deals for students and parents</a></li>
+              <li><a href="#">Azure for students</a></li>
+            </ul>
+          </div>
+
+          <div class="list4 custom-wrap">
+            <ul class="text-[10px] flex flex-col gap-4">
+              <li><h3 class="font-semibold text-base">Business</h3></li>
+              <li><a href="#">Microsoft Cloud</a></li>
+              <li><a href="#">Microsoft Security</a></li>
+              <li><a href="#">Dynamics 365</a></li>
+              <li><a href="#">Microsoft 365</a></li>
+              <li><a href="#">Microsoft Power Platform</a></li>
+              <li><a href="#">Microsoft Teams</a></li>
+              <li><a href="#">Copilot for Microsoft 365</a></li>
+              <li><a href="#">Small Business</a></li>
+            </ul>
+          </div>
+
+          <div class="list5 custom-wrap">
+            <ul class="text-[10px] flex flex-col gap-4">
+              <li><h3 class="font-semibold text-base">Developer & IT</h3></li>
+              <li><a href="#">Azure</a></li>
+              <li><a href="#">Developer Center</a></li>
+              <li><a href="#">Documentation</a></li>
+              <li><a href="#">Microsoft Learn</a></li>
+              <li><a href="#">Microsoft Tech Community</a></li>
+              <li><a href="#">Azure Marketplace</a></li>
+              <li><a href="#">AppSource</a></li>
+              <li><a href="#">Visual Studio</a></li>
+            </ul>
+          </div>
+
+          <div class="list6 custom-wrap">
+            <ul class="text-[10px] flex flex-col gap-4">
+              <li><h3 class="font-semibold text-base">Company</h3></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">About Microsoft</a></li>
+              <li><a href="#">Company news</a></li>
+              <li><a href="#">Privacy at Microsoft</a></li>
+              <li><a href="#">Investors</a></li>
+              <li><a href="#">Diversity and inclusion</a></li>
+              <li><a href="#">Accessibility</a></li>
+              <li><a href="#">Sustainability</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="end mt-6 pl-5 text-[10px] flex flex-col lg:flex-row lg:justify-around">
+          <div class="flex gap-3 flex-col lg:flex-row">
+            <div class="language flex gap-2 items-center">
+              <i class="fa-solid fa-earth-americas"></i>
+              <span class="hover:underline"><a>English(United States)</a></span>
+            </div>
+
+            <div class="privacy flex gap-2 items-center">
+              <i class="fa-solid fa-lock"></i>
+              <span class="hover:underline"><a>Your Privacy Choices</a></span>
+            </div>
+
+            <span class="hover:underline">Consumer Health Privacy</span>
+          </div>
+
+          <div class="trademark flex flex-wrap gap-3">
+            <span class="hover:underline"><a>Sitemap </a></span>
+            <span class="hover:underline"><a>Contact </a></span>
+            <span class="hover:underline"><a>Microsoft </a></span>
+            <span class="hover:underline"><a>Privacy </a></span>
+            <span class="hover:underline"><a>Terms of use </a></span>
+            <span class="hover:underline"><a>Trademarks </a></span>
+            <span class="hover:underline"><a>Safety & eco </a></span>
+            <span class="hover:underline"><a>Recycling </a></span>
+            <span class="hover:underline"><a>About our ads </a></span>
+            <span class="hover:underline"><a>© Microsoft 2024</a></span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

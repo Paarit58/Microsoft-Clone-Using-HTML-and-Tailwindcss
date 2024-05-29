@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-wrap{
+    @apply  w-[90vw] sm:w-[45vw] md:w-[30vw] lg:w-[10vw]
+}
